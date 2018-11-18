@@ -5,7 +5,7 @@ module FormsLab
 
     get '/' do
 
-      erb :new
+      erb /pirates:new
     end
 
     post '/pirates' do
