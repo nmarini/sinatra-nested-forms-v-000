@@ -7,7 +7,17 @@
 </div>
 
 
-<h2>Display your first ship here</h2>
+<h2>Your First Ship!</h2>
+
+<div class="ship_1">
+
+  <% @ships.map do |ship| %>
+
+  <h3>Name: <%= binding.pry %></h3>
+  <h4>Type: <%= @pirate.weight %></h4>
+  <h4>Booty: <%= @pirate.height %></h4>
+
+</div>
 
 
-<h2>Display your second ship here</h2>
+<h2>You Second Ship!</h2>
